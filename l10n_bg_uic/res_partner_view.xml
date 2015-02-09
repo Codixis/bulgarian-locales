@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <record id="view_partner_form" model="ir.ui.view">
+            <field name="name">res.partner.uic_bg.inherit</field>
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="account.view_partner_property_form"/>
+            <field name="arch" type="xml">
+                <field name="property_account_position" position="before">
+		    <field name="uic_bg" attrs="{'invisible':[('is_company','=',False)]}" placeholder="e.g. EGN or BULSTAT or EIK"/>
+                </field>
+            </field>
+        </record>
+    </data>
+</openerp>
