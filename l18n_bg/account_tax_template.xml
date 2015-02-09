@@ -1,0 +1,208 @@
+<?xml version="1.0" ?>
+<openerp>
+	<data noupdate="1">
+		<record id="account_tax_template_0" model="account.tax.template">
+			<field eval="1" name="sequence"/>
+			<field name="write_uid" ref="base.user_root"/>
+			<field eval="1.0" name="base_sign"/>
+			<field eval="0" name="child_depend"/>
+			<field eval="0" name="include_base_amount"/>
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="display_name">ДДС на покупките пълен ДК 20.00%</field>
+			<field name="applicable_type">true</field>
+			<field name="python_compute_inv"># price_unit
+# product: product.product object or False
+
+result = price_unit * 0.10</field>
+			<field name="type">percent</field>
+			<field eval="1.0" name="ref_base_sign"/>
+			<field name="type_tax_use">purchase</field>
+			<field eval="1.0" name="ref_tax_sign"/>
+			<field name="name">ДДС на покупките пълен ДК 20.00%</field>
+			<field name="chart_template_id" ref="account.configurable_chart_template"/>
+			<field name="python_compute"># price_unit
+# product: product.product object or None
+# partner: res.partner object or None
+
+result = price_unit * 0.10</field>
+			<field eval="1.0" name="tax_sign"/>
+			<field eval="0" name="price_include"/>
+		</record>
+	</data>
+	<data noupdate="1">
+		<record id="account_tax_template_1" model="account.tax.template">
+			<field eval="1" name="sequence"/>
+			<field name="write_uid" ref="base.user_root"/>
+			<field eval="1.0" name="base_sign"/>
+			<field eval="0" name="child_depend"/>
+			<field eval="0" name="include_base_amount"/>
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="display_name">ДДС продажби на територията на страната 20.00%</field>
+			<field name="applicable_type">true</field>
+			<field name="python_compute_inv"># price_unit
+# product: product.product object or False
+
+result = price_unit * 0.10</field>
+			<field name="type">percent</field>
+			<field eval="1.0" name="ref_base_sign"/>
+			<field name="type_tax_use">sale</field>
+			<field eval="1.0" name="ref_tax_sign"/>
+			<field name="name">ДДС продажби на територията на страната 20.00%</field>
+			<field name="chart_template_id" ref="account.configurable_chart_template"/>
+			<field name="python_compute"># price_unit
+# product: product.product object or None
+# partner: res.partner object or None
+
+result = price_unit * 0.10</field>
+			<field eval="1.0" name="tax_sign"/>
+			<field eval="0" name="price_include"/>
+		</record>
+	</data>
+	<data noupdate="1">
+		<record id="account_tax_template_2" model="account.tax.template">
+			<field eval="1" name="sequence"/>
+			<field name="write_uid" ref="base.user_root"/>
+			<field eval="1.0" name="base_sign"/>
+			<field eval="0" name="child_depend"/>
+			<field eval="0" name="include_base_amount"/>
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="display_name">Вътреобщностни доставки - ВОД (0%)</field>
+			<field name="applicable_type">true</field>
+			<field name="python_compute_inv"># price_unit
+# product: product.product object or False
+
+result = price_unit * 0.10</field>
+			<field name="type">percent</field>
+			<field eval="1.0" name="ref_base_sign"/>
+			<field name="type_tax_use">sale</field>
+			<field eval="1.0" name="ref_tax_sign"/>
+			<field name="name">Вътреобщностни доставки - ВОД (0%)</field>
+			<field name="chart_template_id" ref="account.configurable_chart_template"/>
+			<field name="python_compute"># price_unit
+# product: product.product object or None
+# partner: res.partner object or None
+
+result = price_unit * 0.10</field>
+			<field eval="1.0" name="tax_sign"/>
+			<field eval="0" name="price_include"/>
+		</record>
+	</data>
+	<data noupdate="1">
+		<record id="account_tax_template_3" model="account.tax.template">
+			<field eval="1" name="sequence"/>
+			<field name="write_uid" ref="base.user_root"/>
+			<field eval="1.0" name="base_sign"/>
+			<field eval="0" name="child_depend"/>
+			<field eval="0" name="include_base_amount"/>
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="display_name">Облагаеми доставки с нулева ставка (глава 3)</field>
+			<field name="applicable_type">true</field>
+			<field name="python_compute_inv"># price_unit
+# product: product.product object or False
+
+result = price_unit * 0.10</field>
+			<field name="type">percent</field>
+			<field eval="1.0" name="ref_base_sign"/>
+			<field name="type_tax_use">all</field>
+			<field eval="1.0" name="ref_tax_sign"/>
+			<field name="name">Облагаеми доставки с нулева ставка (глава 3)</field>
+			<field name="chart_template_id" ref="account.configurable_chart_template"/>
+			<field name="python_compute"># price_unit
+# product: product.product object or None
+# partner: res.partner object or None
+
+result = price_unit * 0.10</field>
+			<field eval="1.0" name="tax_sign"/>
+			<field eval="0" name="price_include"/>
+		</record>
+	</data>
+	<data noupdate="1">
+		<record id="account_tax_template_4" model="account.tax.template">
+			<field eval="1" name="sequence"/>
+			<field name="write_uid" ref="base.user_root"/>
+			<field eval="1.0" name="base_sign"/>
+			<field eval="0" name="child_depend"/>
+			<field eval="0" name="include_base_amount"/>
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="display_name">Вътреобщностното придобиване - ВОП (0%)</field>
+			<field name="applicable_type">true</field>
+			<field name="__last_update">2014-09-27 14:44:22</field>
+			<field name="python_compute_inv"># price_unit
+# product: product.product object or False
+
+result = price_unit * 0.10</field>
+			<field name="type">percent</field>
+			<field eval="1.0" name="ref_base_sign"/>
+			<field name="type_tax_use">all</field>
+			<field eval="1.0" name="ref_tax_sign"/>
+			<field name="name">Вътреобщностното придобиване - ВОП (0%)</field>
+			<field name="chart_template_id" ref="account.configurable_chart_template"/>
+			<field name="python_compute"># price_unit
+# product: product.product object or None
+# partner: res.partner object or None
+
+result = price_unit * 0.10</field>
+			<field eval="1.0" name="tax_sign"/>
+			<field eval="0" name="price_include"/>
+		</record>
+	</data>
+	<data noupdate="1">
+		<record id="account_tax_template_5" model="account.tax.template">
+			<field eval="1" name="sequence"/>
+			<field name="write_uid" ref="base.user_root"/>
+			<field eval="1.0" name="base_sign"/>
+			<field eval="0" name="child_depend"/>
+			<field eval="0" name="include_base_amount"/>
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="display_name">Необлагаеми сделки и без право на ДК</field>
+			<field name="applicable_type">true</field>
+			<field name="python_compute_inv"># price_unit
+# product: product.product object or False
+
+result = price_unit * 0.10</field>
+			<field name="type">percent</field>
+			<field eval="1.0" name="ref_base_sign"/>
+			<field name="type_tax_use">purchase</field>
+			<field eval="1.0" name="ref_tax_sign"/>
+			<field name="name">Необлагаеми сделки и без право на ДК</field>
+			<field name="chart_template_id" ref="account.configurable_chart_template"/>
+			<field name="python_compute"># price_unit
+# product: product.product object or None
+# partner: res.partner object or None
+
+result = price_unit * 0.10</field>
+			<field eval="1.0" name="tax_sign"/>
+			<field eval="0" name="price_include"/>
+		</record>
+	</data>
+	<data noupdate="1">
+		<record id="account_tax_template_6" model="account.tax.template">
+			<field eval="1" name="sequence"/>
+			<field name="write_uid" ref="base.user_root"/>
+			<field eval="1.0" name="base_sign"/>
+			<field eval="0" name="child_depend"/>
+			<field eval="0" name="include_base_amount"/>
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="display_name">Туристически услуги (9%)</field>
+			<field name="applicable_type">true</field>
+			<field name="python_compute_inv"># price_unit
+# product: product.product object or False
+
+result = price_unit * 0.10</field>
+			<field name="type">percent</field>
+			<field eval="1.0" name="ref_base_sign"/>
+			<field name="type_tax_use">sale</field>
+			<field eval="1.0" name="ref_tax_sign"/>
+			<field name="name">Туристически услуги (9%)</field>
+			<field name="chart_template_id" ref="account.configurable_chart_template"/>
+			<field name="python_compute"># price_unit
+# product: product.product object or None
+# partner: res.partner object or None
+
+result = price_unit * 0.10</field>
+			<field eval="1.0" name="tax_sign"/>
+			<field eval="0" name="price_include"/>
+		</record>
+	</data>
+</openerp>
+

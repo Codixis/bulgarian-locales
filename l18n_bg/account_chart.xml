@@ -1,0 +1,3014 @@
+<?xml version="1.0" ?>
+<openerp>
+	<data noupdate="1">
+		<record id="account_account_template_0" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">1</field>
+			<field name="name">СМЕТКИ ЗА КАПИТАЛ И ЗАЕМИ</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.account_type_asset_view1"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field name="parent_id" ref="account.conf_chart0"/>
+			<field eval="0" name="nocreate"/>
+			<field name="display_name">1 СМЕТКИ ЗА КАПИТАЛ И ЗАЕМИ</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">view</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_0" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">10</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Капитал</field>
+			<field name="__last_update">2014-09-30 14:34:52</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.account_type_asset_view1"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field name="parent_id" ref="__export__.account_account_30"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-30 14:34:52</field>
+			<field name="display_name">10 Капитал</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">view</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_1" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">101</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Основен капитал, изискващ регистрация</field>
+			<field name="__last_update">2014-09-30 14:39:42</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_asset"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field name="parent_id" ref="__export__.account_account_32"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-30 14:39:42</field>
+			<field name="display_name">101 Основен капитал, изискващ регистрация</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_2" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">104</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Капитал на предприятия с нестопанска дейност</field>
+			<field name="__last_update">2014-09-30 14:39:51</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_asset"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field name="parent_id" ref="__export__.account_account_32"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-30 14:39:51</field>
+			<field name="display_name">104 Капитал на предприятия с нестопанска дейност</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_3" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">10</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Капитал</field>
+			<field name="__last_update">2014-09-30 14:34:52</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.account_type_asset_view1"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field name="parent_id" ref="account_account_template_0"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-30 14:34:52</field>
+			<field name="display_name">10 Капитал</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">view</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_5" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">101</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Основен капитал, изискващ регистрация</field>
+			<field name="__last_update">2014-09-30 14:39:42</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_asset"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field name="parent_id" ref="account_account_template_3"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-30 14:39:42</field>
+			<field name="display_name">101 Основен капитал, изискващ регистрация</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_6" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">104</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Капитал на предприятия с нестопанска дейност</field>
+			<field name="__last_update">2014-09-30 14:39:51</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_asset"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field name="parent_id" ref="account_account_template_3"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-30 14:39:51</field>
+			<field name="display_name">104 Капитал на предприятия с нестопанска дейност</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_7" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">12</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Финансови Резултати</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.account_type_asset_view1"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">12 Финансови Резултати</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">view</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_8" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">121</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Непокрита загуба от минали години</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_asset"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">121 Непокрита загуба от минали години</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_9" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">122</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Неразпределена печалба от минали години</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_asset"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">122 Неразпределена печалба от минали години</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_10" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">123</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Печалби и загуби от текущата година</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_asset"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">123 Печалби и загуби от текущата година</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_11" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">15</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Получени Заеми</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.account_type_asset_view1"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">15 Получени Заеми</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">view</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_12" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">151</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Получени краткосрочни заеми</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_asset"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">151 Получени краткосрочни заеми</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_13" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">152</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Получени дългосрочни заеми</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_asset"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">152 Получени дългосрочни заеми</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_14" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">153</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Кредитни карти</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_asset"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">153 Кредитни карти</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_15" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">154</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Дългови инструменти</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_asset"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">154 Дългови инструменти</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_16" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">159</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Други заеми и дългове</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_asset"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">159 Други заеми и дългове</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_17" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">2</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">СМЕТКИ ЗА ДЪЛГОТРАЙНИ АКТИВИ</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.account_type_asset_view1"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">2 СМЕТКИ ЗА ДЪЛГОТРАЙНИ АКТИВИ</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">view</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_18" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">20</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Дълготрайни Материални Активи</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.account_type_asset_view1"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">20 Дълготрайни Материални Активи</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">view</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_19" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">22</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Дългосрочни Финансови Активи</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.account_type_asset_view1"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">22 Дългосрочни Финансови Активи</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">view</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_20" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">3</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">СМЕТКИ ЗА СТОКОВО МАТЕРИАЛНИ ЗАПАСИ</field>
+			<field name="__last_update">2014-10-02 14:56:29</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.account_type_asset_view1"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field name="parent_id" ref="account.conf_chart0"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-10-02 14:56:29</field>
+			<field name="display_name">3 СМЕТКИ ЗА СТОКОВО МАТЕРИАЛНИ ЗАПАСИ</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">view</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_20" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">30</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Суровини/Материали, Продукция и Стоки</field>
+			<field name="__last_update">2014-10-02 14:56:22</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.account_type_asset_view1"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field name="parent_id" ref="__export__.account_account_111"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-10-02 14:56:22</field>
+			<field name="display_name">30 Суровини/Материали, Продукция и Стоки</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">view</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_21" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">304</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Стоки</field>
+			<field name="__last_update">2014-10-02 14:56:06</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_asset"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field name="parent_id" ref="__export__.account_account_112"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-10-02 14:56:06</field>
+			<field name="display_name">304 Стоки</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_22" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">30</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Суровини/Материали, Продукция и Стоки</field>
+			<field name="__last_update">2014-10-02 14:56:22</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.account_type_asset_view1"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field name="parent_id" ref="account_account_template_20"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-10-02 14:56:22</field>
+			<field name="display_name">30 Суровини/Материали, Продукция и Стоки</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">view</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_22" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">304</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Стоки</field>
+			<field name="__last_update">2014-10-02 14:56:06</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_asset"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field name="parent_id" ref="__export__.account_account_112"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-10-02 14:56:06</field>
+			<field name="display_name">304 Стоки</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_23" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">301</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Доставки</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_asset"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">301 Доставки</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_24" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">302</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Суровини/Материали</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_asset"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">302 Суровини/Материали</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_25" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">303</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Продукти</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_asset"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">303 Продукти</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_26" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">304</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Стоки</field>
+			<field name="__last_update">2014-10-02 14:56:06</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_asset"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field name="parent_id" ref="account_account_template_22"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-10-02 14:56:06</field>
+			<field name="display_name">304 Стоки</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_27" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">4</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">СМЕТКИ ЗА РАЗЧЕТИ</field>
+			<field name="__last_update">2014-10-02 08:21:18</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.account_type_asset_view1"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field name="parent_id" ref="account.conf_chart0"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-10-02 08:21:18</field>
+			<field name="display_name">4 СМЕТКИ ЗА РАЗЧЕТИ</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">view</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_27" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">40</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Доставчици и Свързани с Тях Сметки</field>
+			<field name="__last_update">2014-10-02 08:49:31</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.account_type_asset_view1"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field name="parent_id" ref="__export__.account_account_125"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-10-02 08:49:31</field>
+			<field name="display_name">40 Доставчици и Свързани с Тях Сметки</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">view</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_28" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">401</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Задължения към доставчици</field>
+			<field name="__last_update">2014-10-02 08:50:59</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_payable"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field name="parent_id" ref="__export__.account_account_126"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-10-02 08:50:59</field>
+			<field name="display_name">401 Задължения към доставчици</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">payable</field>
+			<field eval="1" name="reconcile"/>
+		</record>
+		<record id="account_account_template_29" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">41</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Клиенти и Свързани с Тях Сметки</field>
+			<field name="__last_update">2014-10-01 08:39:49</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.account_type_asset_view1"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field name="parent_id" ref="__export__.account_account_125"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-10-01 08:39:49</field>
+			<field name="display_name">41 Клиенти и Свързани с Тях Сметки</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">view</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_30" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">411</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Вземания от клиенти</field>
+			<field name="__last_update">2014-10-02 08:14:15</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_receivable"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field name="parent_id" ref="__export__.account_account_133"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-10-02 08:14:15</field>
+			<field name="display_name">411 Вземания от клиенти</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">receivable</field>
+			<field eval="1" name="reconcile"/>
+		</record>
+		<record id="account_account_template_31" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">40</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Доставчици и Свързани с Тях Сметки</field>
+			<field name="__last_update">2014-10-02 08:49:31</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.account_type_asset_view1"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field name="parent_id" ref="account_account_template_27"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-10-02 08:49:31</field>
+			<field name="display_name">40 Доставчици и Свързани с Тях Сметки</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">view</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_31" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">401</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Задължения към доставчици</field>
+			<field name="__last_update">2014-10-02 08:50:59</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_payable"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field name="parent_id" ref="__export__.account_account_126"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-10-02 08:50:59</field>
+			<field name="display_name">401 Задължения към доставчици</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">payable</field>
+			<field eval="1" name="reconcile"/>
+		</record>
+		<record id="account_account_template_32" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">401</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Задължения към доставчици</field>
+			<field name="__last_update">2014-10-02 08:50:59</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_payable"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field name="parent_id" ref="account_account_template_31"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-10-02 08:50:59</field>
+			<field name="display_name">401 Задължения към доставчици</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">payable</field>
+			<field eval="1" name="reconcile"/>
+		</record>
+		<record id="account_account_template_33" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">402</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Вземания от доставчици по аванси</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_receivable"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">402 Вземания от доставчици по аванси</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">receivable</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_34" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">403</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Задължения към доставчици по търговски кредити</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_payable"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">403 Задължения към доставчици по търговски кредити</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">payable</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_35" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">404</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Задължения към доставчици по доставки при определени условия</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_payable"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">404 Задължения към доставчици по доставки при определени условия</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">payable</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_36" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">405</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Задължения към доставчици свързани лица</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_payable"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">405 Задължения към доставчици свързани лица</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">payable</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_37" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">409</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Други задължения към доставчици</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_payable"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">409 Други задължения към доставчици</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">payable</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_38" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">41</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Клиенти и Свързани с Тях Сметки</field>
+			<field name="__last_update">2014-10-01 08:39:49</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.account_type_asset_view1"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field name="parent_id" ref="account_account_template_27"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-10-01 08:39:49</field>
+			<field name="display_name">41 Клиенти и Свързани с Тях Сметки</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">view</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_38" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">411</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Вземания от клиенти</field>
+			<field name="__last_update">2014-10-02 08:14:15</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_receivable"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field name="parent_id" ref="__export__.account_account_133"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-10-02 08:14:15</field>
+			<field name="display_name">411 Вземания от клиенти</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">receivable</field>
+			<field eval="1" name="reconcile"/>
+		</record>
+		<record id="account_account_template_39" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">411</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Вземания от клиенти</field>
+			<field name="__last_update">2014-10-02 08:14:15</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_receivable"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field name="parent_id" ref="account_account_template_38"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-10-02 08:14:15</field>
+			<field name="display_name">411 Вземания от клиенти</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">receivable</field>
+			<field eval="1" name="reconcile"/>
+		</record>
+		<record id="account_account_template_40" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">412</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Задължения към клиенти по аванси</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_payable"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">412 Задължения към клиенти по аванси</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">payable</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_41" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">413</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Вземания от клиенти по търговски кредити</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_receivable"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">413 Вземания от клиенти по търговски кредити</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">receivable</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_42" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">414</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Вземания от клиенти по продажби при определени условия</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_receivable"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">414 Вземания от клиенти по продажби при определени условия</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">receivable</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_43" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">415</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Вземания от клиенти свързани лица</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_receivable"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">415 Вземания от клиенти свързани лица</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">receivable</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_44" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">419</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Други вземания от клиенти</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_receivable"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">419 Други вземания от клиенти</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">receivable</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_45" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">42</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name"> Персонал и Съдружници</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.account_type_liability_view1"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">42  Персонал и Съдружници</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">view</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_46" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">421</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Задължения към персонал</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_liability"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">421 Задължения към персонал</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_47" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">422</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Разчети с подотчетни лица</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_liability"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">422 Разчети с подотчетни лица</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_48" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">425</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Задължения за съучастия</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_liability"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">425 Задължения за съучастия</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_49" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">44</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Вземания по Липси, Начети и Съдебни Спорове</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.account_type_asset_view1"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">44 Вземания по Липси, Начети и Съдебни Спорове</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">view</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_50" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">441</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Вземания по рекламации</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_asset"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">441 Вземания по рекламации</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_51" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">442</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Вземания по липси и начети</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_asset"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">442 Вземания по липси и начети</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_52" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">443</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Ценови разлики по липси и начети</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_asset"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">443 Ценови разлики по липси и начети</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_53" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">444</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Вземания по съдебни спорове</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_asset"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">444 Вземания по съдебни спорове</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_54" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">445</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Присъдени вземания</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_asset"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">445 Присъдени вземания</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_55" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">45</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Разчети с Бюджета и Ведомствата</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.account_type_asset_view1"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">45 Разчети с Бюджета и Ведомствата</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">view</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_56" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">4521</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Разчети за Годишен корпоративен данък</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_asset"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">4521 Разчети за Годишен корпоративен данък</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_57" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">4522</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Разчети за Авансов корпоративен данък</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_asset"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">4522 Разчети за Авансов корпоративен данък</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_58" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">4531</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Начислен данък върху добавената стойност за покупките</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_liability"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">4531 Начислен данък върху добавената стойност за покупките</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_59" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">4532</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Начислен данък върху добавената стойност за продажбите</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_asset"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">4532 Начислен данък върху добавената стойност за продажбите</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_60" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">4536</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Отложен данъчен кредит</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_asset"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">4536 Отложен данъчен кредит</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_61" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">4537</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Неизползван данъчен кредит</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_asset"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">4537 Неизползван данъчен кредит</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_62" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">4538</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Данък върху добавената стойност за възстановяване</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_asset"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">4538 Данък върху добавената стойност за възстановяване</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_63" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">4539</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Данък върху добавената стойност за внасяне</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_liability"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">4539 Данък върху добавената стойност за внасяне</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_64" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">454</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Разчети за данъци върху доходи на физически лица</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_asset"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">454 Разчети за данъци върху доходи на физически лица</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_65" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">456</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Разчети за акцизи</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_asset"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">456 Разчети за акцизи</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_66" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">457</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Разчети с митници</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_asset"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">457 Разчети с митници</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_67" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">459</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Данъчни разчети с бюджета</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_asset"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">459 Данъчни разчети с бюджета</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_68" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">46</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Разчети с Осигурители</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.account_type_asset_view1"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">46 Разчети с Осигурители</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">view</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_69" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">461</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Разчети за задължително социално осигуряване</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_asset"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">461 Разчети за задължително социално осигуряване</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_70" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">462</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Разчети за доброволно социално осигуряване</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_asset"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">462 Разчети за доброволно социално осигуряване</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_71" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">463</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Разчети за здравно осигуряване</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_asset"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">463 Разчети за здравно осигуряване</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_72" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">469</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Други разчети с осигурители</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_asset"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">469 Други разчети с осигурители</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_73" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">49</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name"> Разни Дебитори и Кредитори</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.account_type_asset_view1"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">49  Разни Дебитори и Кредитори</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">view</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_74" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">491</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Разчети с доверители</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_asset"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">491 Разчети с доверители</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_75" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">492</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Разчети за гаранции</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_asset"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">492 Разчети за гаранции</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_76" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">493</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Разчети със собственици</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_asset"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">493 Разчети със собственици</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_77" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">494</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Разчети по отсрочени данъци</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_asset"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">494 Разчети по отсрочени данъци</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_78" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">495</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Разчети по застраховане</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_asset"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">495 Разчети по застраховане</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_79" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">496</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Разчети по лихви</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_asset"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">496 Разчети по лихви</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_80" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">497</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Провизии</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_liability"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">497 Провизии</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_81" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">498</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Други дебитори</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_asset"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">498 Други дебитори</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_82" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">499</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Други кредитори</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_liability"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">499 Други кредитори</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_83" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">5</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">СМЕТКИ ЗА ФИНАНСОВИ СРЕДСТВА</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.account_type_asset_view1"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">5 СМЕТКИ ЗА ФИНАНСОВИ СРЕДСТВА</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">view</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_84" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">50</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Парични Средства</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.account_type_asset_view1"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">50 Парични Средства</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">view</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_85" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">501</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Каса в левове</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_asset"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">501 Каса в левове</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_86" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">502</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Каса във валута</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_asset"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">502 Каса във валута</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_87" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">503</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Разплащателна сметки в левове</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_asset"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">503 Разплащателна сметки в левове</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_88" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">504</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Разплащателна сметка във валута</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_asset"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">504 Разплащателна сметка във валута</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_89" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">505</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Акредитиви</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_asset"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">505 Акредитиви</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_90" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">506</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Предоставени депозити</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_asset"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">506 Предоставени депозити</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_91" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">507</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Парични средства, заложени като обезпечение</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_asset"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">507 Парични средства, заложени като обезпечение</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_92" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">509</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Други парични средства (в т.ч. ваучери и чекове)</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_asset"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">509 Други парични средства (в т.ч. ваучери и чекове)</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_93" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">51</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Краткосрочни Финансови Активи</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.account_type_asset_view1"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">51 Краткосрочни Финансови Активи</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">view</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_94" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">511</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Финансови активи, отчитани по справедлива стойност в печалбата или загубата</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_asset"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">511 Финансови активи, отчитани по справедлива стойност в печалбата или загубата</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_95" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">512</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Финансови активи, държани до настъпване на падеж</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_asset"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">512 Финансови активи, държани до настъпване на падеж</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_96" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">513</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Краткосрочни заеми и вземания</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_asset"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">513 Краткосрочни заеми и вземания</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_97" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">514</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Финансови активи на разположение за продажба</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_asset"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">514 Финансови активи на разположение за продажба</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_98" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">519</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Други краткосрочни финансови активи (в т.ч. благородни метали)</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_asset"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">519 Други краткосрочни финансови активи (в т.ч. благородни метали)</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_99" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">6</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">СМЕТКИ ЗА РАЗХОДИ</field>
+			<field name="__last_update">2014-10-02 14:49:13</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.account_type_expense_view1"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field name="parent_id" ref="account.conf_chart0"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-10-02 14:49:13</field>
+			<field name="display_name">6 СМЕТКИ ЗА РАЗХОДИ</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">view</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_99" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">61</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Разходи за Дейността</field>
+			<field name="__last_update">2014-10-02 14:49:06</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.account_type_expense_view1"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field name="parent_id" ref="__export__.account_account_185"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-10-02 14:49:06</field>
+			<field name="display_name">61 Разходи за Дейността</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">view</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_100" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">611</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Разходи за основна дейност</field>
+			<field name="__last_update">2014-10-02 14:48:51</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_expense"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field name="parent_id" ref="__export__.account_account_186"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-10-02 14:48:51</field>
+			<field name="display_name">611 Разходи за основна дейност</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_101" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">60</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Разходи по Икономически Елементи</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.account_type_expense_view1"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">60 Разходи по Икономически Елементи</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">view</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_102" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">601</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Разходи за материали</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_payable"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">601 Разходи за материали</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_103" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">602</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Разходи за външни услуги</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_payable"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">602 Разходи за външни услуги</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_104" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">603</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Разходи за амортизация</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_payable"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">603 Разходи за амортизация</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_105" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">604</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Разходи за заплати (възнаграждения)</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_payable"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">604 Разходи за заплати (възнаграждения)</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_106" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">605</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Разходи за осигуровки</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_payable"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">605 Разходи за осигуровки</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_107" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">606</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Разходи за данъци, такси и други подобни плащания</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_payable"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">606 Разходи за данъци, такси и други подобни плащания</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_108" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">607</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Разходи за провизии</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_payable"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">607 Разходи за провизии</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_109" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">608</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Разходи от последващи оценки на активи</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_payable"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">608 Разходи от последващи оценки на активи</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_110" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">609</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Други разходи</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_payable"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">609 Други разходи</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_111" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">61</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Разходи за Дейността</field>
+			<field name="__last_update">2014-10-02 14:49:06</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.account_type_expense_view1"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field name="parent_id" ref="account_account_template_99"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-10-02 14:49:06</field>
+			<field name="display_name">61 Разходи за Дейността</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">view</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_111" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">611</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Разходи за основна дейност</field>
+			<field name="__last_update">2014-10-02 14:48:51</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_expense"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field name="parent_id" ref="__export__.account_account_186"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-10-02 14:48:51</field>
+			<field name="display_name">611 Разходи за основна дейност</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_112" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">611</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Разходи за основна дейност</field>
+			<field name="__last_update">2014-10-02 14:48:51</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_expense"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field name="parent_id" ref="account_account_template_111"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-10-02 14:48:51</field>
+			<field name="display_name">611 Разходи за основна дейност</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_113" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">612</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Разходи за спомагателна дейност</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_expense"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">612 Разходи за спомагателна дейност</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_114" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">613</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Разходи за придобиване на дълготрайни активи</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_expense"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">613 Разходи за придобиване на дълготрайни активи</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_115" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">614</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Административни разходи</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_expense"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">614 Административни разходи</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_116" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">615</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Разходи за продажби</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_expense"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">615 Разходи за продажби</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_117" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">62</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Финансови Разходи</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.account_type_expense_view1"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">62 Финансови Разходи</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">view</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_118" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">621</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Разходи за лихви</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_expense"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">621 Разходи за лихви</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_119" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">623</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Разходи по операции с финансови активи и инструменти</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_expense"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">623 Разходи по операции с финансови активи и инструменти</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_120" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">624</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Разходи по валутни операции</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_expense"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">624 Разходи по валутни операции</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_121" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">625</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Разходи от последващи оценки на финансови активи и инструменти</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_expense"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">625 Разходи от последващи оценки на финансови активи и инструменти</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_122" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">629</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Други финансови разходи</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_expense"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">629 Други финансови разходи</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_123" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">65</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Разходи за Бъдещи Периоди</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.account_type_expense_view1"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">65 Разходи за Бъдещи Периоди</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">view</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_124" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">651</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Нефинансови разходи за бъдещи периоди</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_expense"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">651 Нефинансови разходи за бъдещи периоди</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_125" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">652</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Финансови разходи за бъдещи периоди</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_expense"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">652 Финансови разходи за бъдещи периоди</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_126" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">69</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Извънредни Разходи</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.account_type_expense_view1"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">69 Извънредни Разходи</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">view</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_127" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">691</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Извънредни разходи</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_expense"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">691 Извънредни разходи</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_128" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">7</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">СМЕТКИ ЗА ПРИХОДИ</field>
+			<field name="__last_update">2014-10-02 14:54:10</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.account_type_income_view1"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field name="parent_id" ref="account.conf_chart0"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-10-02 14:54:10</field>
+			<field name="display_name">7 СМЕТКИ ЗА ПРИХОДИ</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">view</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_128" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">70</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Приходи от Продажби</field>
+			<field name="__last_update">2014-10-02 14:52:18</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.account_type_income_view1"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field name="parent_id" ref="__export__.account_account_229"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-10-02 14:52:18</field>
+			<field name="display_name">70 Приходи от Продажби</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">view</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_129" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">702</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Приходи от продажби на стоки</field>
+			<field name="__last_update">2014-10-02 14:53:59</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_income"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field name="parent_id" ref="__export__.account_account_230"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-10-02 14:53:59</field>
+			<field name="display_name">702 Приходи от продажби на стоки</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_130" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">70</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Приходи от Продажби</field>
+			<field name="__last_update">2014-10-02 14:52:18</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.account_type_income_view1"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field name="parent_id" ref="account_account_template_128"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-10-02 14:52:18</field>
+			<field name="display_name">70 Приходи от Продажби</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">view</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_130" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">702</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Приходи от продажби на стоки</field>
+			<field name="__last_update">2014-10-02 14:53:59</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_income"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field name="parent_id" ref="__export__.account_account_230"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-10-02 14:53:59</field>
+			<field name="display_name">702 Приходи от продажби на стоки</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_131" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">701</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Приходи от продажби на продукти</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_income"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">701 Приходи от продажби на продукти</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_132" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">702</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Приходи от продажби на стоки</field>
+			<field name="__last_update">2014-10-02 14:53:59</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_income"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field name="parent_id" ref="account_account_template_130"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-10-02 14:53:59</field>
+			<field name="display_name">702 Приходи от продажби на стоки</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_133" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">703</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Приходи от продажби на услуги</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_income"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">703 Приходи от продажби на услуги</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_134" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">704</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Приходи от наеми</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_income"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">704 Приходи от наеми</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_135" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">705</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Приходи от продажби на дълготрайни активи</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_income"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">705 Приходи от продажби на дълготрайни активи</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_136" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">706</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Приходи от продажба на суровини/материали</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_income"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">706 Приходи от продажба на суровини/материали</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_137" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">707</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Приходи от последваща оценка на активи</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_income"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">707 Приходи от последваща оценка на активи</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_138" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">708</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Приходи от финансирания</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_income"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">708 Приходи от финансирания</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_139" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">709</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Други приходи от дейността</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_income"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">709 Други приходи от дейността</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_140" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">71</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Приходи в Предприятия с Нестопанска Дейност</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.account_type_income_view1"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">71 Приходи в Предприятия с Нестопанска Дейност</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">view</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_141" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">711</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Приходи от регламентирана дейност</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_income"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">711 Приходи от регламентирана дейност</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_142" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">712</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Приходи от членски внос</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_income"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">712 Приходи от членски внос</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_143" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">713</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Приходи от финансирания и дарения</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_income"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">713 Приходи от финансирания и дарения</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_144" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">719</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Други приходи</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_income"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">719 Други приходи</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_145" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">72</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Финансови Приходи</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.account_type_income_view1"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">72 Финансови Приходи</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">view</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_146" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">721</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Приходи от лихви</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_income"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">721 Приходи от лихви</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_147" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">722</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Приходи от съучастия</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_income"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">722 Приходи от съучастия</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_148" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">723</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Приходи от операции с финансови активи и инструменти</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_income"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">723 Приходи от операции с финансови активи и инструменти</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_149" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">724</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Приходи от валутни операции</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_income"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">724 Приходи от валутни операции</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_150" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">725</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Приходи от последващи оценки на финансови активи и инструменти</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_income"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">725 Приходи от последващи оценки на финансови активи и инструменти</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_151" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">729</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Други финансови приходи</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_income"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">729 Други финансови приходи</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_152" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">75</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Приходи за Бъдещи Периоди и Финансирания</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.account_type_income_view1"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">75 Приходи за Бъдещи Периоди и Финансирания</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">view</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_153" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">751</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Нефинансови приходи за бъдещи периоди</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_income"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">751 Нефинансови приходи за бъдещи периоди</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_154" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">752</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Финансови приходи за бъдещи периоди</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_income"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">752 Финансови приходи за бъдещи периоди</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_155" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">753</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Финансиране за дълготрайни активи</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_income"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">753 Финансиране за дълготрайни активи</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_156" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">754</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Финансиране на текущата дейност</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_income"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">754 Финансиране на текущата дейност</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_157" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">79</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Извънредни Приходи</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.account_type_income_view1"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">79 Извънредни Приходи</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">view</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_158" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">791</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Извънредни приходи</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_income"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">791 Извънредни приходи</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_159" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">9</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">СМЕТКИ ЗА УСЛОВНИ АКТИВИ И ПАСИВИ</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.account_type_asset_view1"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">9 СМЕТКИ ЗА УСЛОВНИ АКТИВИ И ПАСИВИ</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">view</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_160" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">91</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Чужди Материални, Нематериални и Финансови Активи на Съхранение</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.account_type_asset_view1"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">91 Чужди Материални, Нематериални и Финансови Активи на Съхранение</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">view</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_161" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">911</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Наети чужди активи</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_asset"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">911 Наети чужди активи</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_162" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">912</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Чужди материални активи, получени по консигнационен договор</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_asset"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">912 Чужди материални активи, получени по консигнационен договор</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_163" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">913</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Други материални и нематериални активи, приети на съхранение</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_asset"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">913 Други материални и нематериални активи, приети на съхранение</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_164" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">914</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Финансови активи или парични средства, приети на за съхранение</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_asset"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">914 Финансови активи или парични средства, приети на за съхранение</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_165" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">98</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Други Условни Активи</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.account_type_asset_view1"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">98 Други Условни Активи</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">view</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_166" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">981</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Чужди материални и нематериални активи, получени като обезпечение</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_asset"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">981 Чужди материални и нематериални активи, получени като обезпечение</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_167" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">982</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Чужди финансови активи, получени като обезпечение</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_asset"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">982 Чужди финансови активи, получени като обезпечение</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_168" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">983</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Полици или записи на заповед, получени като обезпечение</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_asset"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">983 Полици или записи на заповед, получени като обезпечение</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_169" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">984</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Други условни активи</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_asset"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">984 Други условни активи</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_170" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">989</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Кореспондираща сметка за условни активи</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_asset"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">989 Кореспондираща сметка за условни активи</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_171" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">99</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Други Условни Пасиви</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.account_type_liability_view1"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">99 Други Условни Пасиви</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">view</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_172" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">991</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Собствени материални и нематериални активи, предоставени като обезпечение</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_liability"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">991 Собствени материални и нематериални активи, предоставени като обезпечение</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_173" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">992</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Собствени финансови активи, предоставени като обезпечение</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_liability"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">992 Собствени финансови активи, предоставени като обезпечение</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_174" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">993</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Полици или записи на заповед, предоставени като обезпечение</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_liability"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">993 Полици или записи на заповед, предоставени като обезпечение</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_175" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">994</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Други условни пасиви</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_liability"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">994 Други условни пасиви</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+		<record id="account_account_template_176" model="account.account.template">
+			<field name="create_uid" ref="base.user_root"/>
+			<field name="code">999</field>
+			<field name="create_date">2014-09-26 16:22:30</field>
+			<field name="name">Кореспондираща сметка за условни пасиви</field>
+			<field name="__last_update">2014-09-26 16:22:30</field>
+			<field eval="[(6,0,[])]" name="tax_ids"/>
+			<field name="user_type" ref="account.data_account_type_liability"/>
+			<field eval="[(6,0,[])]" name="financial_report_ids"/>
+			<field eval="0" name="nocreate"/>
+			<field name="write_date">2014-09-26 16:22:30</field>
+			<field name="display_name">999 Кореспондираща сметка за условни пасиви</field>
+			<field name="write_uid" ref="base.user_root"/>
+			<field name="type">other</field>
+			<field eval="0" name="reconcile"/>
+		</record>
+	</data>
+</openerp>
